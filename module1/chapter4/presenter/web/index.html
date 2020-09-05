@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="scaffolded-by" content="https://github.com/dart-lang/stagehand">
+    <title>presenter</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico">
+    <script defer src="main.dart.js"></script>
+</head>
+
+<body>
+
+<div id="slides">
+</div>
+
+<div id="navControls">
+  <input type="range" id="rngSlides" value="0" />
+  <br />
+  <input id="btnFirst" type="Button" class="navButton" />
+  <input id="btnPrev" type="Button" class="navButton" />
+  <input id="btnNext" type="Button" class="navButton" />
+  <input id="btnLast" type="Button" class="navButton" />
+</div>
+
+<div id="editor">
+  <textarea cols="50" rows="10" id="presentation">
+  </textarea>
+</div>
+
+<div id="contentControls">
+  <br />
+  <input type="date" id="selDate" value="2000-01-01" />
+  <input id="btnInsertDate" type="Button" class="navButton" />
+
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+  <span id="timerDisplay">0</span>
+  <input id="btnTimer" type="Button" class="navButton" />
+  <br />
+  <br />
+  <input id="btnDemo" type="Button" class="navButton" />
+  <input id="btnOverview" type="Button" class="navButton" />
+  <input id="btnHandouts" type="Button" class="navButton" />
+  <br />
+  <br />
+  <span id="lblPageColor" class="label"></span> <input id="pckBackColor" type="color" />
+  &nbsp;
+  <select id="interfaceLang">
+    <option>en</option>
+    <option>fr</option>
+    <option>br</option>
+  </select>
+  <br />
+  <br />
+  <input id="btnStartShow" type="Button" class="navButton" />
+  <input id="btnEndShow" type="Button" class="navButton" />
+</div>
+
+<div id="helpKeyboardShortcuts">
+  <h1>Keyboard Shortcuts</h1>
+  <table class="keyHelp">
+    <tr>
+      <td>Up Arrow </td>
+      <td> First Slide</td>
+    </tr>
+    <tr>
+      <td>Down Arrow</td>
+      <td>Last Slide</td>
+    </tr>
+    <tr>
+      <td>Left Arrow</td>
+      <td>Previous Slide</td>
+    </tr>
+    <tr>
+      <td>Right Arrow</td>
+      <td>Next Slide</td>
+    </tr>
+    <tr>
+      <td>?</td>
+      <td>Show/Hide shortcut help</td>
+    </tr>
+  </table>
+</div>
+
+<div id="presentationSlideshow">
+</div>
+  
+
+</body>
+</html>

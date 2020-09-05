@@ -1,0 +1,75 @@
+{
+  "@@last_modified": "2020-06-30T22:28:45.288689",
+  "btnFirstSlide": "Início",
+  "@btnFirstSlide": {
+    "description": "Button label - go to the first slide.",
+    "type": "text",
+    "placeholders": {}
+  },
+  "btnPrevSlide": "Anterior",
+  "@btnPrevSlide": {
+    "description": "Button label - go to the previous slide.",
+    "type": "text",
+    "placeholders": {}
+  },
+  "btnNextSlide": "Próximo",
+  "@btnNextSlide": {
+    "description": "Button label - go to the next slide.",
+    "type": "text",
+    "placeholders": {}
+  },
+  "btnLastSlide": "Último",
+  "@btnLastSlide": {
+    "description": "Button label - go to the last slide.",
+    "type": "text",
+    "placeholders": {}
+  },
+  "btnInsertDate": "Inserir",
+  "@btnInsertDate": {
+    "description": "Button label - insert the current date to the presentation",
+    "type": "text",
+    "placeholders": {}
+  },
+  "btnTimer": "Iniciar/Parar",
+  "@btnTimer": {
+    "description": "Button label - Start and Stop the pratice timer.",
+    "type": "text",
+    "placeholders": {}
+  },
+  "btnDemo": "Amostra",
+  "@btnDemo": {
+    "description": "Button label - Insert the demo presentation script into the editor.",
+    "type": "text",
+    "placeholders": {}
+  },
+  "btnOverview": "Visão geral",
+  "@btnOverview": {
+    "description": "Button label - Show the overview screen",
+    "type": "text",
+    "placeholders": {}
+  },
+  "btnHandouts": "Livro",
+  "@btnHandouts": {
+    "description": "Button label - Show the handout screen",
+    "type": "text",
+    "placeholders": {}
+  },
+  "lblPageColor": "Cor de fundo",
+  "@lblPageColor": {
+    "description": "Color picker label - page background color",
+    "type": "text",
+    "placeholders": {}
+  },
+  "btnStartShow": "Iniciar Show",
+  "@btnStartShow": {
+    "description": "Button label - Start the show",
+    "type": "text",
+    "placeholders": {}
+  },
+  "btnEndShow": "Parar Show",
+  "@btnEndShow": {
+    "description": "Button label - End the show.",
+    "type": "text",
+    "placeholders": {}
+  }
+}

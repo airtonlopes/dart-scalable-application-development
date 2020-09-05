@@ -1,0 +1,74 @@
+{
+  "btnFirstSlide": "Première",
+  "@btnFirstSlide": {
+    "description": "Button label - go to the first slide.",
+    "type": "text",
+    "placeholders": {}
+  },
+  "btnPrevSlide": "Précédent",
+  "@btnPrevSlide": {
+    "description": "Button label - go to the previous slide.",
+    "type": "text",
+    "placeholders": {}
+  },
+  "btnNextSlide": "Suivant",
+  "@btnNextSlide": {
+    "description": "Button label - go to the next slide.",
+    "type": "text",
+    "placeholders": {}
+  },
+  "btnLastSlide": "Dernier",
+  "@btnLastSlide": {
+    "description": "Button label - go to the last slide.",
+    "type": "text",
+    "placeholders": {}
+  },
+  "btnInsertDate": "Insérer",
+  "@btnInsertDate": {
+    "description": "Button label - insert the current date to the presentation.",
+    "type": "text",
+    "placeholders": {}
+  },
+  "btnTimer": "Commencer Arrêter",
+  "@btnTimer": {
+    "description": "Button label - Start and Stop the practice timer.",
+    "type": "text",
+    "placeholders": {}
+  },
+  "btnDemo": "Démo",
+  "@btnDemo": {
+    "description": "Button label - Insert the demo presentation script into the editor.",
+    "type": "text",
+    "placeholders": {}
+  },
+  "btnOverview": "Vue d'ensemble",
+  "@btnOverview": {
+    "description": "Button label - Show the overview screen.",
+    "type": "text",
+    "placeholders": {}
+  },
+  "btnHandouts": "Polycopié",
+  "@btnHandouts": {
+    "description": "Button label - Show the handout screen.",
+    "type": "text",
+    "placeholders": {}
+  },
+  "lblPageColor": "Fond de page",
+  "@lblPageColor": {
+    "description": "Color picker label - page background color.",
+    "type": "text",
+    "placeholders": {}
+  },
+  "btnStartShow": "Démarrer Montrer",
+  "@btnStartShow": {
+    "description": "Button label - Start the show.",
+    "type": "text",
+    "placeholders": {}
+  },
+  "btnEndShow": "Fin Montrer",
+  "@btnEndShow": {
+    "description": "Button label - End the show.",
+    "type": "text",
+    "placeholders": {}
+  }
+}
