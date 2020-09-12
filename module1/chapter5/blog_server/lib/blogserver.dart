@@ -22,6 +22,7 @@ class BlogServerApp {
 
   /// Get request type and process accordingly
   void handleRequest(HttpRequest request) {
+    print(request.uri.path);
     if (request.uri.path.endsWith('.html')) {
       _serveTextFile(request);
     } else if (request.uri.path.endsWith('.png')) {
