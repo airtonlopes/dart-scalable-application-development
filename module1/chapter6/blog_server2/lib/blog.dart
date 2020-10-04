@@ -116,7 +116,7 @@ class Blog {
       jsonPost['id'] = post._id;
       jsonPost['date'] = post._date;
       jsonPost['title'] = post._title;
-      jsonPost['url'] = 'http://127.0.0.1:8080/post${post._id}.html';
+      jsonPost['url'] = 'http://127.0.0.1:3000/post${post._id}.html';
       posts.add(jsonPost);
     });
 
@@ -140,7 +140,7 @@ class Blog {
               RssXb.text(post._title);
             });
             RssXb.element('link', nest: () {
-              RssXb.text('http://127.0.0.1:8080/post${post._id}.html');
+              RssXb.text('http://127.0.0.1:3000/post${post._id}.html');
             });
           });
         });
