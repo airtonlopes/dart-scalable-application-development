@@ -15,9 +15,10 @@ main() async {
   print(Directory.current);
 
   // Create output directory if it does not exists.
-  var outDir = Directory('staticoutput');
-  var staticPath = path.join(Directory.current.path, 'staticoutput');
-  if (!await outDir.exists()) {
+  var outFolderName = 'static';
+  var outDir = Directory(outFolderName);
+  var staticPath = path.join(Directory.current.path, outFolderName);
+  if (!(await outDir.exists())) {
     outDir.create();
   }
 
@@ -25,7 +26,7 @@ main() async {
   var outPath = path.join(staticPath, 'index.html');
   var pageContent = staticBlog.getFrontPage();
   File indexPage = File(outPath);
-  await indexPage.writeAsStringSync(pageContent, mode: FileMode.append);
+  await indexPage.writeAsStringSync(pageContent, mode: FileMode.write);
 
   // Return success exit code
   exit(0);
